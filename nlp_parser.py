@@ -1,7 +1,7 @@
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 def extract_intent(user_input):
     prompt = f"""
